@@ -1,7 +1,7 @@
 # flex-plugin-canned-welcome-goodbye
 Flex plugin for sending canned messages at the start and end of an agent interaction.
 
-> **Flex Version:** `1.3.3`
+> **Flex Version:** `1.3.3`  
 > **Task Channels:** `chat` (includes `SMS`)
 
 #### Modified Behavior
