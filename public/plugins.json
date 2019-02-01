@@ -1,0 +1,13 @@
+[
+  {
+    "name": "CannedWelcomeGoodbyePlugin",
+    "version": "0.0.0",
+    "class": "CannedWelcomeGoodbyePlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "1.3.3"
+      }
+    ],
+    "src": "http://localhost:8080/plugin-canned-welcome-goodbye.js"
+  }
+]
