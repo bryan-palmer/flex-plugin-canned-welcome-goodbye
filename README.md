@@ -4,13 +4,13 @@ Flex plugin for sending canned messages at the start and end of an agent interac
 > **Flex Version:** `1.3.3`  
 > **Task Channels:** `chat` (includes `SMS`)
 
-#### Modified Behavior
+### Modified Behavior
 The following default behaviors were modified and may impact functionality if competing/conflicting plugins are used:
 
 > **Flex Action:** `WrapupTask` - Replaced  
 > **Chat SDK Event:** `channelJoined` - Listener created
 
-#### Configuration
+### Configuration
 
 In `/src/CannedWelcomeGoodbyePlugin.js`, there are two variables `introMsg` and `exitMsg` with preset messages:
 ```javascript
@@ -35,11 +35,11 @@ At the end of the Worker interaction, the task moves into a wrapping state which
 
 ___
 
-# How to use this Twilio Flex Plugin
+## How to use this Twilio Flex Plugin
 
 Twilio Flex Plugins allow you to customize the apperance and behavior of [Twilio Flex](https://www.twilio.com/flex). If you want to learn more about the capabilities and how to use the API, check out our [Flex documentation](https://www.twilio.com/docs/flex).
 
-## Setup
+### Setup
 
 Make sure you have [Node.js](https://nodejs.org) as well as [`npm`](https://npmjs.com) installed.
 
@@ -52,7 +52,7 @@ cd flex-plugin-canned-welcome-goodbye
 npm install
 ```
 
-## Development
+### Development
 
 In order to develop locally, you can use the Webpack Dev Server by running:
 
@@ -68,7 +68,7 @@ PORT=3000 npm start
 
 When you make changes to your code, the browser window will be automatically refreshed.
 
-## Deploy
+### Deploy
 
 Once you are happy with your plugin, you have to bundle it, in order to deply it to Twilio Flex.
 
